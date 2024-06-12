@@ -13,7 +13,7 @@ def test_customer_get_restaurant(test_client, customer_auth_headers):
         "description": "The best burgers in town.",
         "rating": 4.2
     }
-    admin_response = test_client.post("/api/restaurants", json=admin_data, headers=admin_auth_headers)
+    admin_response = test_client.post("/api/restaurants", json=admin_data, headers=customer_auth_headers)
     assert admin_response.status_code == 201
     restaurant_id = admin_response.json["id"]
 

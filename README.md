@@ -1,7 +1,7 @@
 # Examen Final
 ## Programación Web III - MVC API RESTful
 
-### Antes de Empezar:
+### Antes de Empezar: 
 
 1. Realiza un **Fork** de este repositorio:
 
@@ -12,7 +12,7 @@
 2. Completa tus datos personales en la siguiente tabla:
     | Nombre   | Apellido   | CI   |
     | -------- | ---------- | ---- |
-    | `nombre` | `apellido` | `ci` |
+    | `Karina` | `Mamani Condori` | `13437952` |
 
 3. Realiza un commit de esta modificación y sube los cambios a tu repositorio remoto ejecutando los siguientes comandos desde la terminal de tu equipo local o desde **GitHub Codespaces**:
     ```bash
